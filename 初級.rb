@@ -32,16 +32,25 @@
 # p x
 # p x.select {|k, v| v >= 3} #３以上の値を表示
 
-a = ["ruby","php",nil,"java",nil]
-p a
-p a.compact #配列のnil要素を削除
-p a.join(",") #配列の要素を結合して一つの文字列にする
-a.push("python") #配列に要素を連結
-p a
-p a.pop #削除した要素を確認できる
-a.pop(2) #配列の末尾を削除 引数で数を指定
-p a
-p a.shift #配列の最初の要素を削除
-p a
-a.unshift("aaaa") #配列の最初に要素を挿入
-p a
+# a = ["ruby","php",nil,"java",nil]
+# p a
+# p a.compact #配列のnil要素を削除
+# p a.join(",") #配列の要素を結合して一つの文字列にする
+# a.push("python") #配列に要素を連結
+# p a
+# p a.pop #削除した要素を確認できる
+# a.pop(2) #配列の末尾を削除 引数で数を指定
+# p a
+# p a.shift #配列の最初の要素を削除
+# p a
+# a.unshift("aaaa") #配列の最初に要素を挿入
+# p a
+
+# m = gets.to_i
+# n = gets.to_i
+# a = m - n
+# p a
+
+string = "ruby ruby ruby"
+string.gsub!(/ruby/, "python") #rubyをpythonに置き換える
+p string
