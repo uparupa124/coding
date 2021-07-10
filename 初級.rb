@@ -51,6 +51,15 @@
 # a = m - n
 # p a
 
-string = "ruby ruby ruby"
-string.gsub!(/ruby/, "python") #rubyをpythonに置き換える
-p string
+# string = "ruby ruby ruby"
+# string.gsub!(/ruby/, "python") #rubyをpythonに置き換える
+# p string
+
+
+# input = readlines #複数入力　C＋Dで入力終了
+
+# p input
+
+while line = gets
+  p line.chomp
+end
