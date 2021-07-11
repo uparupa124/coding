@@ -60,6 +60,11 @@
 
 # p input
 
-while line = gets
-  p line.chomp
-end
+# while line = gets
+#   p line.chomp
+# end
+
+# a1 = readlines(chomp: true)
+# p a1
+# a2 = a1.map { |x| x.to_i * 2 }
+# p a2
