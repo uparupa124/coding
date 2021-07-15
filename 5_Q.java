@@ -14,20 +14,20 @@
 //   }
 // }
 
-public class Main{
-  public static void main(String[] args){
-    double ans = calcTriangleArea(10.0, 5.0);
-    System.out.println("三角形の底辺の長さが10.0cm,高さが5.0cmの場合、面積は" + ans + "cm2");
+// public class Main{
+//   public static void main(String[] args){
+//     double ans = calcTriangleArea(10.0, 5.0);
+//     System.out.println("三角形の底辺の長さが10.0cm,高さが5.0cmの場合、面積は" + ans + "cm2");
 
-    double ans1 = calcCircleArea(5.0);
-    System.out.println("円の半径が5.0cmの場合、面積は" + ans1 + "cm2");
-  }
-  public static double calcTriangleArea(double bottom, double height){
-    double ans = bottom * height / 2;
-    return ans;
-  }
-  public static double calcCircleArea(double radius){
-    double ans = radius * radius * 3.14;
-    return ans;
-  }
-}
+//     double ans1 = calcCircleArea(5.0);
+//     System.out.println("円の半径が5.0cmの場合、面積は" + ans1 + "cm2");
+//   }
+//   public static double calcTriangleArea(double bottom, double height){
+//     double ans = bottom * height / 2;
+//     return ans;
+//   }
+//   public static double calcCircleArea(double radius){
+//     double ans = radius * radius * 3.14;
+//     return ans;
+//   }
+// }
