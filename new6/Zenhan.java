@@ -8,3 +8,5 @@ public class Zenhan{
     System.out.println("この老ぼれの目は誤魔化せませんぞ。");
   }
 }
+
+//フォルダ名をパッケージ名と同じにする必要があるかもしれない
