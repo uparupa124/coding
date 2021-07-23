@@ -20,12 +20,19 @@ public class Main{
     m2.hp = 48;
     m2.suffix = 'B';
 
-    h.slip();
-    m1.run();
-    m2.run();
+    Sword s = new Sword();
+    s.name = "炎の剣";
+    s.damage = 10;
+
+    Wizard w = new Wizard();
+    w.name = "魔法使い";
+    w.hp = 50;
+
+    h.sword = s;
+    System.out.println("現在の武器は" + h.sword.name);
+    h.attack();
+    w.heal(h);
     h.run();
-    c.selfAid();
-    c.selfAid();
-    c.pray(3);
+
   }
 }
