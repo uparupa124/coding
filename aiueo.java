@@ -11,9 +11,18 @@
 //   } 
 // }
 
+// public class Main{
+//   public static void main(String[] args){
+//     String data = new java.util.Scanner(System.in).nextLine();
+//     System.out.println(data);
+//   }
+// }
+
 public class Main{
   public static void main(String[] args){
-    String data = new java.util.Scanner(System.in).nextLine();
-    System.out.println(data);
+    aiu();
+  }
+  public static void aiu(){
+    System.out.println("呼び出しました");
   }
 }
