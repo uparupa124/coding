@@ -18,11 +18,23 @@
 //   }
 // }
 
+// public class Main{
+//   public static void main(String[] args){
+//     aiu();
+//   }
+//   public static void aiu(){
+//     System.out.println("呼び出しました");
+//   }
+// }
+
+
 public class Main{
   public static void main(String[] args){
-    aiu();
+    System.out.println(aiu(5, 6));
   }
-  public static void aiu(){
-    System.out.println("呼び出しました");
+
+  public static int aiu(int n, int m){
+    int a = n + m;
+    return a;
   }
 }
