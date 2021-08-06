@@ -30,7 +30,9 @@
 
 public class Main{
   public static void main(String[] args){
-    System.out.println(aiu(5, 6));
+    int a = aiu(5, 6);
+    
+    System.out.println(a);
   }
 
   public static int aiu(int n, int m){
