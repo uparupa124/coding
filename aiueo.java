@@ -30,9 +30,13 @@
 
 public class Main{
   public static void main(String[] args){
-    int a = aiu(5, 6);
-    
-    System.out.println(a);
+    int a = aiu(8, 9);
+
+    if (a <= 17){
+    System.out.println("true");
+    }else{
+      System.out.println("false");
+    }
   }
 
   public static int aiu(int n, int m){
