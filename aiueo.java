@@ -28,19 +28,35 @@
 // }
 
 
+// public class Main{
+//   public static void main(String[] args){
+//     int a = aiu(8, 9);
+
+//     if (a <= 17){
+//     System.out.println("true");
+//     }else{
+//       System.out.println("false");
+//     }
+//   }
+
+//   public static int aiu(int n, int m){
+//     int a = n + m;
+//     return a;
+//   }
+// }
+
 public class Main{
   public static void main(String[] args){
-    int a = aiu(8, 9);
+    long a = 1;
+    long b = 1;
+    long c = 2;
 
-    if (a <= 17){
-    System.out.println("true");
-    }else{
-      System.out.println("false");
+    for(int i = 1; i < 20; i++){
+      long d = a + b + c;
+      System.out.println(d);
+      a = b;
+      b = c;
+      c = d;うううう
     }
-  }
-
-  public static int aiu(int n, int m){
-    int a = n + m;
-    return a;
   }
 }
