@@ -45,18 +45,33 @@
 //   }
 // }
 
+// public class Main{
+//   public static void main(String[] args){
+//     long a = 1;
+//     long b = 1;
+//     long c = 2;
+
+//     for(int i = 1; i < 20; i++){
+//       long d = a + b + c;
+//       System.out.println(d);
+//       a = b;
+//       b = c;
+//       c = d;
+//     }
+//   }
+// }
+
+
 public class Main{
   public static void main(String[] args){
-    long a = 1;
-    long b = 1;
-    long c = 2;
+    int i = new java.util.Random().nextInt(4);
+    System.out.println("0~4までの数字を入力してください");
+    int value = new java.util.Scanner(System.in).nextInt();
 
-    for(int i = 1; i < 20; i++){
-      long d = a + b + c;
-      System.out.println(d);
-      a = b;
-      b = c;
-      c = d;うううう
+    if(value == i){
+      System.out.println("true");
+    }else{
+      System.out.println("false");
     }
   }
 }
